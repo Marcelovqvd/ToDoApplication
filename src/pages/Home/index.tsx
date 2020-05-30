@@ -1,7 +1,9 @@
 import React from 'react';
 
+import { Title } from './styles';
+
 const Home: React.FunctionComponent = () => {
-  return <h1>Home</h1>;
+  return <Title>Home</Title>;
 }
 
 export default Home;
